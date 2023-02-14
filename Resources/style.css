@@ -11,3 +11,22 @@ header img {
 nav {
     text-align: right;
 }
+
+/* BANNER */
+main {
+    background-color: #d8d8d8;
+    display: flex;
+    color: #4a4a4a;
+}
+
+main img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+button {
+    color: white;
+background: #4a4a4a;
+border: 0;
+padding: 8px 16px;
+}
