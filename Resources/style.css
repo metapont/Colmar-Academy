@@ -1,0 +1,13 @@
+/* NAVBAR */
+header {
+    display: flex;
+    height: 64px;
+}
+
+header img {
+    margin-left: 24px;
+}
+
+nav {
+    text-align: right;
+}
