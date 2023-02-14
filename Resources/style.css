@@ -30,3 +30,24 @@ background: #4a4a4a;
 border: 0;
 padding: 8px 16px;
 }
+
+/* KEEP PRACTICING */
+.white-block {
+    background-color: #f3f5f5;
+    display: flex;
+    color: #4a4a4a;
+}
+
+.white-block .img-block img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.white-block a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.block-long {
+    display: flex;
+}
