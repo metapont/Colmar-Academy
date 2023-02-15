@@ -233,15 +233,31 @@ button {
 /* FOOTER */
 footer {
     color: #4a4a4a;
-    border-top: solid #dfe1e1;
+    border-top: solid 1px #dfe1e1;
     display: flex;
-    width: 100%;
 }
 
 footer p {
     margin: 16px 0 0 24px;
+    width: 100%;
 }
 
 footer a {
     margin: 16px 24px 0 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#footer {
+    width: 100%;
 }
