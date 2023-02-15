@@ -109,3 +109,34 @@ padding: 8px 16px;
     margin: 8px 0;
     padding-bottom: 24px; 
 }
+
+/* THESIS EXHIBIT */
+
+#thesis h3 {
+    text-align: center;
+}
+
+#thesis-block {
+    display: flex;
+}
+
+#thesis video {
+    width: 60%;
+    margin: 24px;
+}
+
+/* FOOTER */
+footer {
+    color: #4a4a4a;
+    border-top: solid #dfe1e1;
+    display: flex;
+}
+
+footer p {
+    margin: 16px 0 0 24px;
+}
+
+footer a {
+    margin: 16px 24px 0 0;
+    text-align: right;
+}
