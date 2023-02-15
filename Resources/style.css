@@ -59,4 +59,53 @@ padding: 8px 16px;
     margin: 16px;
 }
 
-/* QUEDE queriendo cambiar el tamaño de las imágenes de block-long */
+/* START LEARNING */
+#start-learning {
+    background-color: #f3f5f5;
+    color: #4a4a4a;
+}
+
+#start-learning h2 {
+    padding: 32px 0;
+    text-align: center;
+}
+
+#start-learning img {
+    height: auto;
+}
+
+.parent-block {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.block-left {
+    margin-left: 72px;
+}
+
+.block-center {
+    margin: 0 32px;
+}
+
+.block-white {
+    background: #f3f5f5;
+    background-color: #fafafa;
+    padding-left: 16px;
+}
+
+.block-white h5 {
+    color: #4a4a4a;
+    padding-top: 16px;
+    margin-top: 0;
+}
+
+.block-white h6 {
+    color: #767676;
+    margin: 8px 0;
+}
+
+.block-white p {
+    color: #767676;
+    margin: 8px 0;
+    padding-bottom: 24px; 
+}
