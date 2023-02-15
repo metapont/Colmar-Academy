@@ -1,7 +1,10 @@
+/* UNIVERSAL */
+
 /* NAVBAR */
 header {
     display: flex;
     height: 64px;
+    width: 100%;
 }
 
 header img {
@@ -10,6 +13,10 @@ header img {
 
 nav {
     text-align: right;
+}
+
+nav a {
+    display: inline-block;
 }
 
 /* BANNER */
@@ -24,11 +31,17 @@ main img {
     margin: 32px 24px;
 }
 
+#banner {
+    width: 400px;
+}
+
 button {
+    width: 100%;
     color: white;
-background: #4a4a4a;
-border: 0;
-padding: 8px 16px;
+    background: #4a4a4a;
+    border: 0;
+    padding: 8px 50px;
+    align-content: center;
 }
 
 /* KEEP PRACTICING */
@@ -36,6 +49,7 @@ padding: 8px 16px;
     background-color: #f3f5f5;
     display: flex;
     color: #4a4a4a;
+    margin-bottom: 0;
 }
 
 .white-block .img-block img {
@@ -59,10 +73,15 @@ padding: 8px 16px;
     margin: 16px;
 }
 
+.block-long .words {
+    display: block;
+}
+
 /* START LEARNING */
 #start-learning {
-    background-color: #f3f5f5;
+    background-color: #eaebec;
     color: #4a4a4a;
+    margin-top: 0;
 }
 
 #start-learning h2 {
@@ -130,6 +149,7 @@ footer {
     color: #4a4a4a;
     border-top: solid #dfe1e1;
     display: flex;
+    width: 100%;
 }
 
 footer p {
@@ -138,5 +158,4 @@ footer p {
 
 footer a {
     margin: 16px 24px 0 0;
-    text-align: right;
 }
