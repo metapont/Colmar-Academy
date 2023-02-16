@@ -129,7 +129,7 @@ button {
     text-decoration: none;
 }
 
-#block-long {
+#block-long-kp {
     width: 40%;
     margin-left: 50px;
 }
@@ -146,13 +146,13 @@ button {
     padding:32px 16px 16px 16px;
 }
 
-.block-long {
+.block-long-kp {
     display: flex;
     border: solid 1px #e0e2e2;
     padding: 16px;
 }
 
-.block-long .words {
+.block-long-kp .words {
     display: block;
     padding-top: 30px;
     margin-left: 16px;
@@ -232,10 +232,11 @@ button {
 
 #thesis .img-block {
     margin-left: 24px;
+    width: 100%;
 }
 
 #thesis video {
-    width: 100%;
+    width: 90%;
     margin-top: 0;
 }
 
@@ -243,14 +244,12 @@ button {
     font-size: 25px;
     color: #4a4a4a;
     margin: 24px 0 8px 0;
-    display: block;
 }
 
 #thesis p {
     font-size: 20px;
     color: #4a4a4a;
     margin-bottom: 32px;
-    display: block;
 }
 
 #thesis-block {
@@ -265,16 +264,26 @@ button {
 .block-long {
     border: none;
     padding: 0 0 16px 0;
+    display: flex;
 }
 
 .block-long img {
     width: 35%;
     height: auto;
+    margin: 16px;
+    background-size: cover;
 }
 
 .block-long h5 {
     padding-left: 16px;
-    display: block;
+}
+
+.block-long-words {
+    padding-left: 16px;
+}
+
+.block-long-words h5 {
+    padding-left: 0;
 }
 
 /* FOOTER */
