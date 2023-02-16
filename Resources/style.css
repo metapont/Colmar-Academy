@@ -219,6 +219,23 @@ button {
 
 #thesis h3 {
     text-align: center;
+    font-size: 45px;
+    color: #4a4a4a;
+    margin: 32px 0;
+}
+
+#thesis h5 {
+    font-size: 25px;
+    color: #4a4a4a;
+    margin: 24px 0 8px 0;
+    display: block;
+}
+
+#thesis p {
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-bottom: 32px;
+    display: block;
 }
 
 #thesis-block {
@@ -226,8 +243,36 @@ button {
 }
 
 #thesis video {
-    width: 60%;
-    margin: 24px;
+    width: 100%;
+    margin-top: 0;
+}
+
+#thesis .img-block {
+    margin-left: 24px;
+}
+
+#thesis-block .img-block {
+    width: 100%;
+    margin: 0 24px 24px 24px;
+}
+
+#block-longy {
+    margin-top: 0;
+}
+
+.block-long {
+    border: none;
+    padding: 0 0 16px 0;
+}
+
+.block-long img {
+    width: 35%;
+    height: auto;
+}
+
+.block-long h5 {
+    padding-left: 16px;
+    display: block;
 }
 
 /* FOOTER */
