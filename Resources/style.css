@@ -89,6 +89,7 @@ button {
 }
 
 /* KEEP PRACTICING */
+
 .white-block {
     background-color: #f3f5f5;
     display: flex;
@@ -104,11 +105,6 @@ button {
 .white-block .img-block img {
     width: 100%;
     margin: 32px 24px 0 24px;
-}
-
-.white-block a {
-    color: #4a90e2;
-    text-decoration: none;
 }
 
 .white-block .wh-words {
@@ -128,21 +124,26 @@ button {
     font-size: 18px;
 }
 
+.white-block a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
 #block-long {
     width: 40%;
     margin-left: 50px;
+}
+
+.block-long-up .words {
+    display: block;
+    padding-top: 30px;
+    margin-left: 16px;
 }
 
 .block-long-up {
     display: flex;
     border: solid 1px #e0e2e2;
     padding:32px 16px 16px 16px;
-}
-
-.img {
-    height: auto;
-    width: 35%;
-    background-size: cover;
 }
 
 .block-long {
@@ -157,10 +158,10 @@ button {
     margin-left: 16px;
 }
 
-.block-long-up .words {
-    display: block;
-    padding-top: 30px;
-    margin-left: 16px;
+.img {
+    height: auto;
+    width: 35%;
+    background-size: cover;
 }
 
 /* START LEARNING */
@@ -177,6 +178,8 @@ button {
 
 #start-learning img {
     height: auto;
+    width: auto;
+    padding: 32px;
 }
 
 .parent-block {
@@ -186,16 +189,14 @@ button {
 
 .block-left {
     margin-left: 72px;
-}
-
-.block-center {
-    margin: 0 32px;
+    width: 33%;
 }
 
 .block-white {
     background: #f3f5f5;
     background-color: #fafafa;
     padding-left: 16px;
+    width: 33%;
 }
 
 .block-white h5 {
@@ -215,6 +216,11 @@ button {
     padding-bottom: 24px; 
 }
 
+.block-center {
+    margin: 0 32px;
+    width: 33%;
+}
+
 /* THESIS EXHIBIT */
 
 #thesis h3 {
@@ -222,6 +228,15 @@ button {
     font-size: 45px;
     color: #4a4a4a;
     margin: 32px 0;
+}
+
+#thesis .img-block {
+    margin-left: 24px;
+}
+
+#thesis video {
+    width: 100%;
+    margin-top: 0;
 }
 
 #thesis h5 {
@@ -242,22 +257,9 @@ button {
     display: flex;
 }
 
-#thesis video {
-    width: 100%;
-    margin-top: 0;
-}
-
-#thesis .img-block {
-    margin-left: 24px;
-}
-
 #thesis-block .img-block {
     width: 100%;
     margin: 0 24px 24px 24px;
-}
-
-#block-longy {
-    margin-top: 0;
 }
 
 .block-long {
@@ -287,8 +289,11 @@ footer p {
     width: 100%;
 }
 
-footer a {
-    margin: 16px 24px 0 0;
+footer nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 footer ul li {
@@ -296,11 +301,8 @@ footer ul li {
     display: inline-block;
 }
 
-footer nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: flex-end;
+footer a {
+    margin: 16px 24px 0 0;
 }
 
 #footer {
