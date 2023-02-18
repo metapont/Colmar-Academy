@@ -55,12 +55,14 @@ main {
     background-color: #d8d8d8;
     display: flex;
     color: #4a4a4a;
+    width: 100%;
 }
 
 main img {
     width: 60%;
     margin: 32px 24px;
     background-size: cover;
+    height: auto;
 }
 
 #banner {
@@ -164,7 +166,7 @@ button {
     background-size: cover;
 }
 
-/* START LEARNING */
+/* START LEARNING
 #start-learning {
     background-color: #eaebec;
     color: #4a4a4a;
@@ -219,6 +221,50 @@ button {
 .block-center {
     margin: 0 32px;
     width: 33%;
+} */
+
+
+
+/* START LEARNING 2 */
+#start-learning-2 {
+    width: 100%;
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#start-learning-2 h1 {
+    padding-top: 32px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    margin: 0 72px 16px 72px;
+    padding-left: 0;
+    padding-bottom: 32px;
+}
+
+.list li {
+    width: 30%;
+    margin: 32px;
+    background-color: white;
+}
+
+.list li img {
+    height: auto;
+    width: 100%;
+}
+
+.list h3, 
+.list p {
+    margin: 16px 16px 24px 16px;
 }
 
 /* THESIS EXHIBIT */
